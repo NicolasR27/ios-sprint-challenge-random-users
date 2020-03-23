@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E743E64242889210011E639 /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E743E63242889210011E639 /* UsersTableViewController.swift */; };
+		3E743E66242889460011E639 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E743E65242889460011E639 /* UserDetailViewController.swift */; };
+		3E743E6B242889EF0011E639 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E743E6A242889EF0011E639 /* UserController.swift */; };
+		3E743E6D242889F60011E639 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E743E6C242889F60011E639 /* UserTableViewCell.swift */; };
+		3E743E6F242889FE0011E639 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E743E6E242889FE0011E639 /* User.swift */; };
+		3E743E7124288A060011E639 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E743E7024288A060011E639 /* Cache.swift */; };
+		3E743E7324288A110011E639 /* FetchPhotoOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E743E7224288A110011E639 /* FetchPhotoOperation.swift */; };
+		3E743E7524288A1B0011E639 /* ConcurrentOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E743E7424288A1B0011E639 /* ConcurrentOperation.swift */; };
 		8ED6A9882140178A00FC395A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED6A9872140178A00FC395A /* AppDelegate.swift */; };
 		8ED6A98D2140178A00FC395A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ED6A98B2140178A00FC395A /* Main.storyboard */; };
 		8ED6A98F2140178C00FC395A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ED6A98E2140178C00FC395A /* Assets.xcassets */; };
 		8ED6A9922140178C00FC395A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ED6A9902140178C00FC395A /* LaunchScreen.storyboard */; };
-		9D5CCA55214231DD00224681 /* ConcurrentOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5CCA54214231DD00224681 /* ConcurrentOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E743E63242889210011E639 /* UsersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
+		3E743E65242889460011E639 /* UserDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		3E743E6A242889EF0011E639 /* UserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		3E743E6C242889F60011E639 /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		3E743E6E242889FE0011E639 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3E743E7024288A060011E639 /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		3E743E7224288A110011E639 /* FetchPhotoOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchPhotoOperation.swift; sourceTree = "<group>"; };
+		3E743E7424288A1B0011E639 /* ConcurrentOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcurrentOperation.swift; sourceTree = "<group>"; };
 		8ED6A9842140178A00FC395A /* Random Users.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Random Users.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED6A9872140178A00FC395A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8ED6A98C2140178A00FC395A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8ED6A98E2140178C00FC395A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8ED6A9912140178C00FC395A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8ED6A9932140178C00FC395A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D5CCA54214231DD00224681 /* ConcurrentOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcurrentOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E743E672428896E0011E639 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3E743E6A242889EF0011E639 /* UserController.swift */,
+				3E743E6C242889F60011E639 /* UserTableViewCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3EA56391242838CC007E7ED3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3E743E65242889460011E639 /* UserDetailViewController.swift */,
+				3E743E63242889210011E639 /* UsersTableViewController.swift */,
+				3E743E672428896E0011E639 /* Controllers */,
+				3EA5639624283A17007E7ED3 /* Models */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3EA5639624283A17007E7ED3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E743E6E242889FE0011E639 /* User.swift */,
+				3E743E7024288A060011E639 /* Cache.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		8ED6A97B2140178A00FC395A = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +97,7 @@
 		8ED6A9862140178A00FC395A /* Random Users */ = {
 			isa = PBXGroup;
 			children = (
+				3EA56391242838CC007E7ED3 /* ViewControllers */,
 				8ED6A9872140178A00FC395A /* AppDelegate.swift */,
 				9D5CCA56214231E400224681 /* Operations */,
 				9D5CCA522142305600224681 /* Resources */,
@@ -75,7 +119,8 @@
 		9D5CCA56214231E400224681 /* Operations */ = {
 			isa = PBXGroup;
 			children = (
-				9D5CCA54214231DD00224681 /* ConcurrentOperation.swift */,
+				3E743E7224288A110011E639 /* FetchPhotoOperation.swift */,
+				3E743E7424288A1B0011E639 /* ConcurrentOperation.swift */,
 			);
 			path = Operations;
 			sourceTree = "<group>";
@@ -112,6 +157,7 @@
 				TargetAttributes = {
 					8ED6A9832140178A00FC395A = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -151,8 +197,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E743E7124288A060011E639 /* Cache.swift in Sources */,
+				3E743E7324288A110011E639 /* FetchPhotoOperation.swift in Sources */,
+				3E743E64242889210011E639 /* UsersTableViewController.swift in Sources */,
 				8ED6A9882140178A00FC395A /* AppDelegate.swift in Sources */,
-				9D5CCA55214231DD00224681 /* ConcurrentOperation.swift in Sources */,
+				3E743E7524288A1B0011E639 /* ConcurrentOperation.swift in Sources */,
+				3E743E6F242889FE0011E639 /* User.swift in Sources */,
+				3E743E6B242889EF0011E639 /* UserController.swift in Sources */,
+				3E743E66242889460011E639 /* UserDetailViewController.swift in Sources */,
+				3E743E6D242889F60011E639 /* UserTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,13 +352,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VXUQXR6S56;
 				INFOPLIST_FILE = "$(SRCROOT)/Random Users/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.LambdaSchool.RandomUsers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -317,13 +371,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VXUQXR6S56;
 				INFOPLIST_FILE = "$(SRCROOT)/Random Users/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.LambdaSchool.RandomUsers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
